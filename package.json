@@ -1,0 +1,22 @@
+{
+  "name": "montando-base-proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "David Gutierrez",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "sass": "^1.71.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
