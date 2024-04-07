@@ -1,171 +1,31 @@
-body{
-    background-color: #008b6f;
-}
-
-.main-section {
-    text-align: center;
-    margin: 0 auto;
-    top: 30px;
-    position: relative;
-    width: 30%;
-    padding: 10px 30px 30px;
-    background-color: #f8f9fa;
-    border-radius: 10px; 
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.logo1{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    fill: #016954;
-    left: 29%;
-    transform: rotate(-45deg);
-    top: -21px;
-}
-.logo2{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    fill: #016954;
-    left: 65%;
-    transform: rotate(45deg);
-    top: -21px;
-}
-
-.logo3{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    fill: #016954;
-    left: 29%;
-    transform: rotate(45deg);
-    top: 121px;
-}
-
-.logo4{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    fill: #016954;
-    left: 65%;
-    transform: rotate(45deg);
-    top: 121px;
-}
-
-.logo5{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    fill: #016954;
-    left: 65%;
-    transform: rotate(45deg);
-    top: 251px;
-}
-
-.logo6{
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    fill: #016954;
-    left: 29%;
-    top: 251px;
-}
-
-.logo7{
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    fill: #016954;
-    left: 41%;
-    top: -15px;
-}
-
-.logo8{
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    fill: #016954;
-    left: 54%;
-    top: -15px;
-}
-
-.main-section h2 {
-    text-transform: uppercase;
-    color: #008b6f;
-    font-size: 40px;
-    margin-bottom: 20px; 
-}
-
-.container{
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    margin-top: 30px; 
-}
-
-.form-side {
-    width: 100%;
-}
-
-.form-side form#form-search {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-side #form-search select {
-    font-size: inherit;
-    margin: 8px 0px 7px;
-    background-color: aliceblue;
-    padding: 8px 5px;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 7px;
-    border: solid 1px #ada2a2;
-    color: #736d6d;
-}
-
-input[type="submit"] {
-    margin: 20px auto 0px; 
-    width: 60%;
-    color: #fff;
-    background-color: #00a478;
-    border: solid 0px #ada2a2;
-    border-radius: 4px;
-    text-transform: uppercase;
-    font-weight: 700;
-    padding: 10px; 
-    font-family: 'Montserrat', sans-serif;
-    cursor: pointer; 
-    transition: background-color 0.3s ease; 
-}
-
-input[type="submit"]:hover {
-    background-color: #008b6f; 
-}
-
-.error {
-    color: red;
-}
-
-.display-info p span {
-    font-weight: 700;
-}
-
-.display-info .main-price {
-    font-size: 28px;
+.contentBox {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  .contentBox:hover {
+    transform: translateY(-5px);
+  }
+  
+  
+  .title {
+    font-size: 18px;
     margin-bottom: 10px;
-    color: #00a478; 
-}
+    color: #333;
+  }
 
-.display-info p {
-    margin-bottom: 8px;
-    color: #008b6f; 
-}
-
-.display-info {
-    background-color: #fff; 
-    border-radius: 10px; 
-    padding: 20px; 
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    margin-top: 30px; 
-}
+  
+#news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 5px; 
+    width: 79%;
+    margin: 0 auto;
+  }
